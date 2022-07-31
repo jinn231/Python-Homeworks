@@ -28,6 +28,7 @@ try:
             dividing(first_num,sec_num)
 
     caculator(first_num, sec_num, operator)
-
+except ValueError:
+    print("OOPS! Something went wrong.")
 finally:
     print("Thank for using")
